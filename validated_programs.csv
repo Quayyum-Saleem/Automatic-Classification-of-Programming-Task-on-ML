@@ -1,0 +1,2576 @@
+id,task_id,task,code,error_type
+362,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 2
+print(fact)",Update_Error
+74,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 2",Correct
+375,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i * 2",Update_Error
+156,8,Reverse a number,"n = 12345
+reverse = 1
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Initialization_Error
+105,5,Print numbers from 10 to 1 in reverse,"i = 1
+while i >= 1:
+    print(i)
+    i = i - 1",Initialization_Error
+395,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n * 10
+print(count)",Update_Error
+378,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i
+print(fact)",Update_Error
+125,1,Print numbers from 1 to 10,"i = 11
+while i <= 10:
+    print(i)
+    i = i + 1",Initialization_Error
+69,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 1",Correct
+451,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)",Infinite_Loop
+10,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 2",Correct
+195,7,Count digits in a number,"n = 12345
+count = 123
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Initialization_Error
+407,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+print(count)",Infinite_Loop
+85,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 1",Correct
+372,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n + 10
+print(reverse)",Update_Error
+389,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i * 2",Update_Error
+496,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+print(reverse)",Infinite_Loop
+31,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Correct
+317,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 2",Update_Error
+409,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)",Infinite_Loop
+491,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)",Infinite_Loop
+492,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+print(total)",Infinite_Loop
+281,1,Print numbers from 1 to 10,"i = 1
+while i < 10:
+    print(i)
+    i = i + 1",Condition_Error
+357,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 2",Update_Error
+77,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 1",Correct
+462,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+print(fact)",Infinite_Loop
+498,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)",Infinite_Loop
+212,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i >= n:
+    total = total + i
+    i = i + 1
+print(total)",Condition_Error
+102,2,Print even numbers from 2 to 20,"i = 1
+while i <= 20:
+    print(i)
+    i = i + 2",Initialization_Error
+335,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i * 2",Update_Error
+476,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+print(total)",Infinite_Loop
+337,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 2",Update_Error
+441,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)",Infinite_Loop
+174,2,Print even numbers from 2 to 20,"i = 6
+while i <= 20:
+    print(i)
+    i = i + 2",Initialization_Error
+3,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 2",Correct
+334,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i",Update_Error
+410,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)",Infinite_Loop
+71,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Correct
+210,2,Print even numbers from 2 to 20,"i = 2
+while i == 20:
+    print(i)
+    i = i + 2",Condition_Error
+64,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Correct
+385,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i + 2",Update_Error
+94,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Correct
+486,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+print(fact)",Infinite_Loop
+186,6,Calculate factorial of a number,"n = 5
+i = 0
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Initialization_Error
+34,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 2",Correct
+78,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Correct
+1,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 1",Correct
+12,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Correct
+416,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+print(reverse)",Infinite_Loop
+23,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Correct
+73,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 1",Correct
+183,3,Print odd numbers from 1 to 19,"i = 4
+while i <= 19:
+    print(i)
+    i = i + 2",Initialization_Error
+132,8,Reverse a number,"n = 12345
+reverse = 12345
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Initialization_Error
+411,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)",Infinite_Loop
+194,6,Calculate factorial of a number,"n = 5
+i = -1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Initialization_Error
+56,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Correct
+149,1,Print numbers from 1 to 10,"i = 5
+while i <= 10:
+    print(i)
+    i = i + 1",Initialization_Error
+19,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 2",Correct
+205,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i == 1:
+    print(i)
+    i = i - 1",Condition_Error
+79,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Correct
+495,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+print(count)",Infinite_Loop
+263,7,Count digits in a number,"n = 12345
+count = 0
+while n >= 10:
+    count = count + 1
+    n = n // 10
+print(count)",Condition_Error
+324,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 100
+print(reverse)",Update_Error
+484,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+print(total)",Infinite_Loop
+80,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Correct
+40,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Correct
+452,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+print(total)",Infinite_Loop
+47,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Correct
+239,7,Count digits in a number,"n = 12345
+count = 0
+while n == 0:
+    count = count + 1
+    n = n // 10
+print(count)",Condition_Error
+392,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 2
+print(total)",Update_Error
+353,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i",Update_Error
+342,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i - 2",Update_Error
+278,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i > n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Condition_Error
+291,3,Print odd numbers from 1 to 19,"i = 1
+while i < 19:
+    print(i)
+    i = i + 2",Condition_Error
+318,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 4",Update_Error
+305,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i + 2",Update_Error
+269,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 10:
+    print(i)
+    i = i - 1",Condition_Error
+70,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Correct
+456,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+print(reverse)",Infinite_Loop
+466,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)",Infinite_Loop
+155,7,Count digits in a number,"n = 12345
+count = 123
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Initialization_Error
+83,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 2",Correct
+478,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+print(fact)",Infinite_Loop
+173,1,Print numbers from 1 to 10,"i = -1
+while i <= 10:
+    print(i)
+    i = i + 1",Initialization_Error
+322,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 2
+print(fact)",Update_Error
+91,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 2",Correct
+181,1,Print numbers from 1 to 10,"i = 0
+while i <= 10:
+    print(i)
+    i = i + 1",Initialization_Error
+415,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+print(count)",Infinite_Loop
+313,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i",Update_Error
+279,7,Count digits in a number,"n = 12345
+count = 0
+while n == 0:
+    count = count + 1
+    n = n // 10
+print(count)",Condition_Error
+382,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i - 2",Update_Error
+473,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)",Infinite_Loop
+363,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n
+print(count)",Update_Error
+325,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i",Update_Error
+432,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+print(reverse)",Infinite_Loop
+348,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n
+print(reverse)",Update_Error
+87,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Correct
+76,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Correct
+439,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+print(count)",Infinite_Loop
+16,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Correct
+250,2,Print even numbers from 2 to 20,"i = 2
+while i == 20:
+    print(i)
+    i = i + 2",Condition_Error
+434,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)",Infinite_Loop
+20,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Correct
+323,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n
+print(count)",Update_Error
+333,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i - 2",Update_Error
+57,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 1",Correct
+302,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i - 2",Update_Error
+230,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i == n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Condition_Error
+332,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n + 10
+print(reverse)",Update_Error
+133,1,Print numbers from 1 to 10,"i = -1
+while i <= 10:
+    print(i)
+    i = i + 1",Initialization_Error
+138,6,Calculate factorial of a number,"n = 5
+i = 3
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Initialization_Error
+424,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+print(reverse)",Infinite_Loop
+336,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i - 1
+print(total)",Update_Error
+26,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 2",Correct
+465,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)",Infinite_Loop
+282,2,Print even numbers from 2 to 20,"i = 2
+while i >= 20:
+    print(i)
+    i = i + 2",Condition_Error
+248,8,Reverse a number,"n = 12345
+reverse = 0
+while n >= 10:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Condition_Error
+238,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i > n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Condition_Error
+118,2,Print even numbers from 2 to 20,"i = 4
+while i <= 20:
+    print(i)
+    i = i + 2",Initialization_Error
+43,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 2",Correct
+221,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i > 1:
+    print(i)
+    i = i - 1",Condition_Error
+177,5,Print numbers from 10 to 1 in reverse,"i = 11
+while i >= 1:
+    print(i)
+    i = i - 1",Initialization_Error
+321,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i + 1",Update_Error
+154,6,Calculate factorial of a number,"n = 5
+i = -1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Initialization_Error
+232,8,Reverse a number,"n = 12345
+reverse = 0
+while n < 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Condition_Error
+228,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i > n:
+    total = total + i
+    i = i + 1
+print(total)",Condition_Error
+418,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)",Infinite_Loop
+204,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n - 1:
+    total = total + i
+    i = i + 1
+print(total)",Condition_Error
+127,3,Print odd numbers from 1 to 19,"i = 2
+while i <= 19:
+    print(i)
+    i = i + 2",Initialization_Error
+330,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i - 2
+print(fact)",Update_Error
+32,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Correct
+114,6,Calculate factorial of a number,"n = 5
+i = -1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Initialization_Error
+471,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+print(count)",Infinite_Loop
+272,8,Reverse a number,"n = 12345
+reverse = 0
+while n < 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Condition_Error
+141,1,Print numbers from 1 to 10,"i = 0
+while i <= 10:
+    print(i)
+    i = i + 1",Initialization_Error
+58,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 2",Correct
+193,5,Print numbers from 10 to 1 in reverse,"i = 5
+while i >= 1:
+    print(i)
+    i = i - 1",Initialization_Error
+25,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 1",Correct
+18,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 2",Correct
+266,2,Print even numbers from 2 to 20,"i = 2
+while i < 20:
+    print(i)
+    i = i + 2",Condition_Error
+67,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 2",Correct
+209,1,Print numbers from 1 to 10,"i = 1
+while i <= 9:
+    print(i)
+    i = i + 1",Condition_Error
+480,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+print(reverse)",Infinite_Loop
+95,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Correct
+254,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n - 1:
+    fact = fact * i
+    i = i + 1
+print(fact)",Condition_Error
+267,3,Print odd numbers from 1 to 19,"i = 1
+while i >= 19:
+    print(i)
+    i = i + 2",Condition_Error
+24,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Correct
+223,7,Count digits in a number,"n = 12345
+count = 0
+while n >= 10:
+    count = count + 1
+    n = n // 10
+print(count)",Condition_Error
+262,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i >= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Condition_Error
+427,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)",Infinite_Loop
+6,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Correct
+117,1,Print numbers from 1 to 10,"i = 2
+while i <= 10:
+    print(i)
+    i = i + 1",Initialization_Error
+46,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Correct
+17,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 1",Correct
+463,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+print(count)",Infinite_Loop
+358,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 4",Update_Error
+4,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Correct
+219,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 17:
+    print(i)
+    i = i + 2",Condition_Error
+406,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+print(fact)",Infinite_Loop
+61,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 1",Correct
+111,3,Print odd numbers from 1 to 19,"i = 0
+while i <= 19:
+    print(i)
+    i = i + 2",Initialization_Error
+319,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i",Update_Error
+429,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)",Infinite_Loop
+30,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Correct
+438,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+print(fact)",Infinite_Loop
+472,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+print(reverse)",Infinite_Loop
+27,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 2",Correct
+8,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Correct
+454,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+print(fact)",Infinite_Loop
+109,1,Print numbers from 1 to 10,"i = 5
+while i <= 10:
+    print(i)
+    i = i + 1",Initialization_Error
+38,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Correct
+158,2,Print even numbers from 2 to 20,"i = 4
+while i <= 20:
+    print(i)
+    i = i + 2",Initialization_Error
+490,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)",Infinite_Loop
+119,3,Print odd numbers from 1 to 19,"i = -1
+while i <= 19:
+    print(i)
+    i = i + 2",Initialization_Error
+115,7,Count digits in a number,"n = 12345
+count = 123
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Initialization_Error
+176,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 0
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Initialization_Error
+374,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i",Update_Error
+182,2,Print even numbers from 2 to 20,"i = 1
+while i <= 20:
+    print(i)
+    i = i + 2",Initialization_Error
+145,5,Print numbers from 10 to 1 in reverse,"i = 1
+while i >= 1:
+    print(i)
+    i = i - 1",Initialization_Error
+370,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i - 2
+print(fact)",Update_Error
+391,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 1",Update_Error
+196,8,Reverse a number,"n = 12345
+reverse = 1
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Initialization_Error
+405,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)",Infinite_Loop
+276,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i < n:
+    total = total + i
+    i = i + 1
+print(total)",Condition_Error
+455,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+print(count)",Infinite_Loop
+142,2,Print even numbers from 2 to 20,"i = 1
+while i <= 20:
+    print(i)
+    i = i + 2",Initialization_Error
+366,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 1",Update_Error
+68,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Correct
+211,3,Print odd numbers from 1 to 19,"i = 1
+while i < 19:
+    print(i)
+    i = i + 2",Condition_Error
+169,5,Print numbers from 10 to 1 in reverse,"i = 0
+while i >= 1:
+    print(i)
+    i = i - 1",Initialization_Error
+494,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+print(fact)",Infinite_Loop
+376,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i - 1
+print(total)",Update_Error
+401,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)",Infinite_Loop
+273,1,Print numbers from 1 to 10,"i = 1
+while i > 10:
+    print(i)
+    i = i + 1",Condition_Error
+110,2,Print even numbers from 2 to 20,"i = 20
+while i <= 20:
+    print(i)
+    i = i + 2",Initialization_Error
+249,1,Print numbers from 1 to 10,"i = 1
+while i <= 9:
+    print(i)
+    i = i + 1",Condition_Error
+146,6,Calculate factorial of a number,"n = 5
+i = 0
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Initialization_Error
+93,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 1",Correct
+153,5,Print numbers from 10 to 1 in reverse,"i = 5
+while i >= 1:
+    print(i)
+    i = i - 1",Initialization_Error
+368,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i
+print(total)",Update_Error
+468,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+print(total)",Infinite_Loop
+84,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Correct
+246,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i < n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Condition_Error
+166,2,Print even numbers from 2 to 20,"i = 0
+while i <= 20:
+    print(i)
+    i = i + 2",Initialization_Error
+164,8,Reverse a number,"n = 12345
+reverse = 10
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Initialization_Error
+200,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 5
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Initialization_Error
+229,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 10:
+    print(i)
+    i = i - 1",Condition_Error
+75,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 2",Correct
+479,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+print(count)",Infinite_Loop
+359,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i",Update_Error
+251,3,Print odd numbers from 1 to 19,"i = 1
+while i < 19:
+    print(i)
+    i = i + 2",Condition_Error
+120,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 5
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Initialization_Error
+311,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 1",Update_Error
+300,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i == n:
+    total = total + i
+    i = i + 1
+print(total)",Condition_Error
+256,8,Reverse a number,"n = 12345
+reverse = 0
+while n >= 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Condition_Error
+355,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n * 10
+print(count)",Update_Error
+400,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i - 2
+print(total)",Update_Error
+226,2,Print even numbers from 2 to 20,"i = 2
+while i < 20:
+    print(i)
+    i = i + 2",Condition_Error
+354,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i * 2
+print(fact)",Update_Error
+235,3,Print odd numbers from 1 to 19,"i = 1
+while i == 19:
+    print(i)
+    i = i + 2",Condition_Error
+383,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 4",Update_Error
+275,3,Print odd numbers from 1 to 19,"i = 1
+while i == 19:
+    print(i)
+    i = i + 2",Condition_Error
+37,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 1",Correct
+197,1,Print numbers from 1 to 10,"i = 2
+while i <= 10:
+    print(i)
+    i = i + 1",Initialization_Error
+140,8,Reverse a number,"n = 12345
+reverse = 5
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Initialization_Error
+365,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i",Update_Error
+245,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i == 1:
+    print(i)
+    i = i - 1",Condition_Error
+440,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+print(reverse)",Infinite_Loop
+287,7,Count digits in a number,"n = 12345
+count = 0
+while n < 0:
+    count = count + 1
+    n = n // 10
+print(count)",Condition_Error
+60,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Correct
+112,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 2
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Initialization_Error
+90,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 2",Correct
+437,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)",Infinite_Loop
+7,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Correct
+361,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i + 1",Update_Error
+347,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n + 10
+print(count)",Update_Error
+339,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 100
+print(count)",Update_Error
+159,3,Print odd numbers from 1 to 19,"i = -1
+while i <= 19:
+    print(i)
+    i = i + 2",Initialization_Error
+151,3,Print odd numbers from 1 to 19,"i = 0
+while i <= 19:
+    print(i)
+    i = i + 2",Initialization_Error
+178,6,Calculate factorial of a number,"n = 5
+i = 3
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Initialization_Error
+394,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i * 2
+print(fact)",Update_Error
+185,5,Print numbers from 10 to 1 in reverse,"i = 1
+while i >= 1:
+    print(i)
+    i = i - 1",Initialization_Error
+450,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)",Infinite_Loop
+11,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 2",Correct
+381,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i - 1",Update_Error
+104,4,Calculate sum of numbers from 1 to N,"n = 10
+i = -1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Initialization_Error
+82,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 2",Correct
+39,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Correct
+315,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n * 10
+print(count)",Update_Error
+168,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 10
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Initialization_Error
+470,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+print(fact)",Infinite_Loop
+297,1,Print numbers from 1 to 10,"i = 1
+while i >= 10:
+    print(i)
+    i = i + 1",Condition_Error
+475,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)",Infinite_Loop
+199,3,Print odd numbers from 1 to 19,"i = -1
+while i <= 19:
+    print(i)
+    i = i + 2",Initialization_Error
+298,2,Print even numbers from 2 to 20,"i = 2
+while i > 20:
+    print(i)
+    i = i + 2",Condition_Error
+417,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)",Infinite_Loop
+147,7,Count digits in a number,"n = 12345
+count = 1234
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Initialization_Error
+393,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i",Update_Error
+148,8,Reverse a number,"n = 12345
+reverse = -1
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Initialization_Error
+448,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+print(reverse)",Infinite_Loop
+288,8,Reverse a number,"n = 12345
+reverse = 0
+while n >= 10:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Condition_Error
+124,8,Reverse a number,"n = 12345
+reverse = 10
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Initialization_Error
+369,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i * 2",Update_Error
+97,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 1",Correct
+144,4,Calculate sum of numbers from 1 to N,"n = 10
+i = -1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Initialization_Error
+240,8,Reverse a number,"n = 12345
+reverse = 0
+while n < 10:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Condition_Error
+443,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)",Infinite_Loop
+98,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 2",Correct
+408,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+print(reverse)",Infinite_Loop
+123,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Initialization_Error
+184,4,Calculate sum of numbers from 1 to N,"n = 10
+i = -1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Initialization_Error
+203,3,Print odd numbers from 1 to 19,"i = 1
+while i > 19:
+    print(i)
+    i = i + 2",Condition_Error
+247,7,Count digits in a number,"n = 12345
+count = 0
+while n < 0:
+    count = count + 1
+    n = n // 10
+print(count)",Condition_Error
+306,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i - 1
+print(fact)",Update_Error
+299,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 17:
+    print(i)
+    i = i + 2",Condition_Error
+352,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 2
+print(total)",Update_Error
+387,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n + 10
+print(count)",Update_Error
+396,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 2
+print(reverse)",Update_Error
+285,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i == 1:
+    print(i)
+    i = i - 1",Condition_Error
+126,2,Print even numbers from 2 to 20,"i = 0
+while i <= 20:
+    print(i)
+    i = i + 2",Initialization_Error
+303,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 4",Update_Error
+224,8,Reverse a number,"n = 12345
+reverse = 0
+while n == 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Condition_Error
+419,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)",Infinite_Loop
+220,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i == n:
+    total = total + i
+    i = i + 1
+print(total)",Condition_Error
+130,6,Calculate factorial of a number,"n = 5
+i = 5
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Initialization_Error
+421,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)",Infinite_Loop
+290,2,Print even numbers from 2 to 20,"i = 2
+while i == 20:
+    print(i)
+    i = i + 2",Condition_Error
+445,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)",Infinite_Loop
+377,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 2",Update_Error
+292,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i >= n:
+    total = total + i
+    i = i + 1
+print(total)",Condition_Error
+356,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 2
+print(reverse)",Update_Error
+295,7,Count digits in a number,"n = 12345
+count = 0
+while n < 10:
+    count = count + 1
+    n = n // 10
+print(count)",Condition_Error
+397,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 2",Update_Error
+341,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i - 1",Update_Error
+113,5,Print numbers from 10 to 1 in reverse,"i = 5
+while i >= 1:
+    print(i)
+    i = i - 1",Initialization_Error
+180,8,Reverse a number,"n = 12345
+reverse = 5
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Initialization_Error
+308,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n
+print(reverse)",Update_Error
+433,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)",Infinite_Loop
+488,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+print(reverse)",Infinite_Loop
+482,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)",Infinite_Loop
+423,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+print(count)",Infinite_Loop
+234,2,Print even numbers from 2 to 20,"i = 2
+while i <= 18:
+    print(i)
+    i = i + 2",Condition_Error
+312,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 2
+print(total)",Update_Error
+165,1,Print numbers from 1 to 10,"i = 11
+while i <= 10:
+    print(i)
+    i = i + 1",Initialization_Error
+137,5,Print numbers from 10 to 1 in reverse,"i = 11
+while i >= 1:
+    print(i)
+    i = i - 1",Initialization_Error
+198,2,Print even numbers from 2 to 20,"i = 4
+while i <= 20:
+    print(i)
+    i = i + 2",Initialization_Error
+259,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 17:
+    print(i)
+    i = i + 2",Condition_Error
+233,1,Print numbers from 1 to 10,"i = 1
+while i > 10:
+    print(i)
+    i = i + 1",Condition_Error
+116,8,Reverse a number,"n = 12345
+reverse = 1
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Initialization_Error
+121,5,Print numbers from 10 to 1 in reverse,"i = 9
+while i >= 1:
+    print(i)
+    i = i - 1",Initialization_Error
+350,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i * 2",Update_Error
+225,1,Print numbers from 1 to 10,"i = 1
+while i == 10:
+    print(i)
+    i = i + 1",Condition_Error
+403,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)",Infinite_Loop
+398,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 4",Update_Error
+128,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 10
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Initialization_Error
+286,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i < n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Condition_Error
+412,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+print(total)",Infinite_Loop
+108,8,Reverse a number,"n = 12345
+reverse = -1
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Initialization_Error
+371,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 2
+print(count)",Update_Error
+326,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 1",Update_Error
+134,2,Print even numbers from 2 to 20,"i = 6
+while i <= 20:
+    print(i)
+    i = i + 2",Initialization_Error
+453,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)",Infinite_Loop
+45,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 1",Correct
+461,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)",Infinite_Loop
+66,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 2",Correct
+284,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n - 1:
+    total = total + i
+    i = i + 1
+print(total)",Condition_Error
+86,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Correct
+243,3,Print odd numbers from 1 to 19,"i = 1
+while i > 19:
+    print(i)
+    i = i + 2",Condition_Error
+187,7,Count digits in a number,"n = 12345
+count = 1234
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Initialization_Error
+384,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i * 2
+print(total)",Update_Error
+160,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 5
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Initialization_Error
+13,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 1",Correct
+36,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Correct
+29,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 1",Correct
+171,7,Count digits in a number,"n = 12345
+count = 1
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Initialization_Error
+143,3,Print odd numbers from 1 to 19,"i = 4
+while i <= 19:
+    print(i)
+    i = i + 2",Initialization_Error
+399,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i",Update_Error
+343,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 4",Update_Error
+222,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i >= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Condition_Error
+96,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Correct
+52,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Correct
+241,1,Print numbers from 1 to 10,"i = 1
+while i < 10:
+    print(i)
+    i = i + 1",Condition_Error
+485,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)",Infinite_Loop
+379,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 100
+print(count)",Update_Error
+179,7,Count digits in a number,"n = 12345
+count = -12345
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Initialization_Error
+42,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 2",Correct
+499,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)",Infinite_Loop
+422,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+print(fact)",Infinite_Loop
+207,7,Count digits in a number,"n = 12345
+count = 0
+while n < 0:
+    count = count + 1
+    n = n // 10
+print(count)",Condition_Error
+283,3,Print odd numbers from 1 to 19,"i = 1
+while i > 19:
+    print(i)
+    i = i + 2",Condition_Error
+255,7,Count digits in a number,"n = 12345
+count = 0
+while n < 10:
+    count = count + 1
+    n = n // 10
+print(count)",Condition_Error
+413,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)",Infinite_Loop
+5,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 1",Correct
+257,1,Print numbers from 1 to 10,"i = 1
+while i >= 10:
+    print(i)
+    i = i + 1",Condition_Error
+449,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)",Infinite_Loop
+101,1,Print numbers from 1 to 10,"i = 0
+while i <= 10:
+    print(i)
+    i = i + 1",Initialization_Error
+227,3,Print odd numbers from 1 to 19,"i = 1
+while i >= 19:
+    print(i)
+    i = i + 2",Condition_Error
+430,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+print(fact)",Infinite_Loop
+214,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n - 1:
+    fact = fact * i
+    i = i + 1
+print(fact)",Condition_Error
+172,8,Reverse a number,"n = 12345
+reverse = 12345
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Initialization_Error
+99,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 2",Correct
+293,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i < 1:
+    print(i)
+    i = i - 1",Condition_Error
+216,8,Reverse a number,"n = 12345
+reverse = 0
+while n >= 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Condition_Error
+62,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Correct
+48,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Correct
+33,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 1",Correct
+268,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i > n:
+    total = total + i
+    i = i + 1
+print(total)",Condition_Error
+328,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i
+print(total)",Update_Error
+201,1,Print numbers from 1 to 10,"i = 1
+while i < 10:
+    print(i)
+    i = i + 1",Condition_Error
+447,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+print(count)",Infinite_Loop
+28,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Correct
+425,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)",Infinite_Loop
+231,7,Count digits in a number,"n = 12345
+count = 0
+while n >= 0:
+    count = count + 1
+    n = n // 10
+print(count)",Condition_Error
+261,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i > 1:
+    print(i)
+    i = i - 1",Condition_Error
+289,1,Print numbers from 1 to 10,"i = 1
+while i <= 9:
+    print(i)
+    i = i + 1",Condition_Error
+163,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Initialization_Error
+426,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)",Infinite_Loop
+139,7,Count digits in a number,"n = 12345
+count = -12345
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Initialization_Error
+63,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Correct
+136,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 0
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Initialization_Error
+129,5,Print numbers from 10 to 1 in reverse,"i = 0
+while i >= 1:
+    print(i)
+    i = i - 1",Initialization_Error
+477,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)",Infinite_Loop
+9,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 1",Correct
+327,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i - 2",Update_Error
+464,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+print(reverse)",Infinite_Loop
+65,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 1",Correct
+301,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i - 1",Update_Error
+15,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Correct
+157,1,Print numbers from 1 to 10,"i = 2
+while i <= 10:
+    print(i)
+    i = i + 1",Initialization_Error
+41,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 1",Correct
+380,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n * 10
+print(reverse)",Update_Error
+469,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)",Infinite_Loop
+404,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+print(total)",Infinite_Loop
+217,1,Print numbers from 1 to 10,"i = 1
+while i >= 10:
+    print(i)
+    i = i + 1",Condition_Error
+280,8,Reverse a number,"n = 12345
+reverse = 0
+while n < 10:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Condition_Error
+435,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)",Infinite_Loop
+431,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+print(count)",Infinite_Loop
+338,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i
+print(fact)",Update_Error
+237,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i <= 1:
+    print(i)
+    i = i - 1",Condition_Error
+208,8,Reverse a number,"n = 12345
+reverse = 0
+while n >= 10:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Condition_Error
+213,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i < 1:
+    print(i)
+    i = i - 1",Condition_Error
+296,8,Reverse a number,"n = 12345
+reverse = 0
+while n >= 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Condition_Error
+458,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)",Infinite_Loop
+252,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i >= n:
+    total = total + i
+    i = i + 1
+print(total)",Condition_Error
+489,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)",Infinite_Loop
+487,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+print(count)",Infinite_Loop
+304,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i * 2
+print(total)",Update_Error
+351,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 1",Update_Error
+270,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i == n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Condition_Error
+202,2,Print even numbers from 2 to 20,"i = 2
+while i >= 20:
+    print(i)
+    i = i + 2",Condition_Error
+162,6,Calculate factorial of a number,"n = 5
+i = 2
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Initialization_Error
+44,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Correct
+218,2,Print even numbers from 2 to 20,"i = 2
+while i > 20:
+    print(i)
+    i = i + 2",Condition_Error
+402,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)",Infinite_Loop
+191,3,Print odd numbers from 1 to 19,"i = 0
+while i <= 19:
+    print(i)
+    i = i + 2",Initialization_Error
+310,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i * 2",Update_Error
+260,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i == n:
+    total = total + i
+    i = i + 1
+print(total)",Condition_Error
+106,6,Calculate factorial of a number,"n = 5
+i = 0
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Initialization_Error
+54,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Correct
+390,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i * 2",Update_Error
+2,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 2",Correct
+442,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)",Infinite_Loop
+483,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)",Infinite_Loop
+50,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)
+    i = i + 2",Correct
+420,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+print(total)",Infinite_Loop
+81,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 1",Correct
+206,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i < n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Condition_Error
+35,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 2",Correct
+264,8,Reverse a number,"n = 12345
+reverse = 0
+while n == 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Condition_Error
+428,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+print(total)",Infinite_Loop
+367,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i - 2",Update_Error
+92,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Correct
+340,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n * 10
+print(reverse)",Update_Error
+474,2,Print even numbers from 2 to 20,"i = 2
+while i <= 20:
+    print(i)",Infinite_Loop
+53,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 1",Correct
+346,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i - 1
+print(fact)",Update_Error
+265,1,Print numbers from 1 to 10,"i = 1
+while i == 10:
+    print(i)
+    i = i + 1",Condition_Error
+242,2,Print even numbers from 2 to 20,"i = 2
+while i >= 20:
+    print(i)
+    i = i + 2",Condition_Error
+14,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Correct
+316,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 2
+print(reverse)",Update_Error
+89,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 1",Correct
+388,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n
+print(reverse)",Update_Error
+274,2,Print even numbers from 2 to 20,"i = 2
+while i <= 18:
+    print(i)
+    i = i + 2",Condition_Error
+167,3,Print odd numbers from 1 to 19,"i = 2
+while i <= 19:
+    print(i)
+    i = i + 2",Initialization_Error
+329,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i * 2",Update_Error
+493,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)",Infinite_Loop
+135,3,Print odd numbers from 1 to 19,"i = 10
+while i <= 19:
+    print(i)
+    i = i + 2",Initialization_Error
+307,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n + 10
+print(count)",Update_Error
+481,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)",Infinite_Loop
+320,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i - 2
+print(total)",Update_Error
+244,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n - 1:
+    total = total + i
+    i = i + 1
+print(total)",Condition_Error
+55,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Correct
+364,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 100
+print(reverse)",Update_Error
+51,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 2",Correct
+457,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)",Infinite_Loop
+175,3,Print odd numbers from 1 to 19,"i = 10
+while i <= 19:
+    print(i)
+    i = i + 2",Initialization_Error
+446,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+print(fact)",Infinite_Loop
+190,2,Print even numbers from 2 to 20,"i = 20
+while i <= 20:
+    print(i)
+    i = i + 2",Initialization_Error
+497,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)",Infinite_Loop
+188,8,Reverse a number,"n = 12345
+reverse = -1
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Initialization_Error
+170,6,Calculate factorial of a number,"n = 5
+i = 5
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Initialization_Error
+59,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)
+    i = i + 2",Correct
+49,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i + 1",Correct
+345,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i + 2",Update_Error
+236,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i < n:
+    total = total + i
+    i = i + 1
+print(total)",Condition_Error
+253,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i < 1:
+    print(i)
+    i = i - 1",Condition_Error
+22,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Correct
+314,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i * 2
+print(fact)",Update_Error
+460,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+print(total)",Infinite_Loop
+161,5,Print numbers from 10 to 1 in reverse,"i = 9
+while i >= 1:
+    print(i)
+    i = i - 1",Initialization_Error
+277,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i <= 1:
+    print(i)
+    i = i - 1",Condition_Error
+444,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+print(total)",Infinite_Loop
+192,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 2
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Initialization_Error
+386,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i - 1
+print(fact)",Update_Error
+294,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n - 1:
+    fact = fact * i
+    i = i + 1
+print(fact)",Condition_Error
+414,6,Calculate factorial of a number,"n = 5
+i = 1
+fact = 1
+while i <= n:
+    fact = fact * i
+print(fact)",Infinite_Loop
+344,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i * 2
+print(total)",Update_Error
+258,2,Print even numbers from 2 to 20,"i = 2
+while i > 20:
+    print(i)
+    i = i + 2",Condition_Error
+309,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i * 2",Update_Error
+150,2,Print even numbers from 2 to 20,"i = 20
+while i <= 20:
+    print(i)
+    i = i + 2",Initialization_Error
+131,7,Count digits in a number,"n = 12345
+count = 1
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Initialization_Error
+152,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 2
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Initialization_Error
+360,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i - 2
+print(total)",Update_Error
+100,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+    i = i + 1
+print(total)",Correct
+373,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i - 2",Update_Error
+88,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Correct
+459,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)",Infinite_Loop
+331,7,Count digits in a number,"n = 12345
+count = 0
+while n > 0:
+    count = count + 1
+    n = n // 2
+print(count)",Update_Error
+215,7,Count digits in a number,"n = 12345
+count = 0
+while n < 10:
+    count = count + 1
+    n = n // 10
+print(count)",Condition_Error
+467,3,Print odd numbers from 1 to 19,"i = 1
+while i <= 19:
+    print(i)",Infinite_Loop
+122,6,Calculate factorial of a number,"n = 5
+i = 2
+fact = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+print(fact)",Initialization_Error
+500,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+print(total)",Infinite_Loop
+21,5,Print numbers from 10 to 1 in reverse,"i = 10
+while i >= 1:
+    print(i)
+    i = i - 1",Correct
+189,1,Print numbers from 1 to 10,"i = 5
+while i <= 10:
+    print(i)
+    i = i + 1",Initialization_Error
+72,8,Reverse a number,"n = 12345
+reverse = 0
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+print(reverse)",Correct
+107,7,Count digits in a number,"n = 12345
+count = 1234
+while n > 0:
+    count = count + 1
+    n = n // 10
+print(count)",Initialization_Error
+271,7,Count digits in a number,"n = 12345
+count = 0
+while n >= 0:
+    count = count + 1
+    n = n // 10
+print(count)",Condition_Error
+349,1,Print numbers from 1 to 10,"i = 1
+while i <= 10:
+    print(i)
+    i = i * 2",Update_Error
+436,4,Calculate sum of numbers from 1 to N,"n = 10
+i = 1
+total = 0
+while i <= n:
+    total = total + i
+print(total)",Infinite_Loop
+103,3,Print odd numbers from 1 to 19,"i = 4
+while i <= 19:
+    print(i)
+    i = i + 2",Initialization_Error
